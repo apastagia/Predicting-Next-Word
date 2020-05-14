@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import pickle
 import heapq
 
-path = 'F:/SACODE/Predicting_word/inputfile.txt'
+path = 'path'
 text = open(path, encoding='utf8').read().lower()
 
 tokenizer = RegexpTokenizer(r'\w+')
